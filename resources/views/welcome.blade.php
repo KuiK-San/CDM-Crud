@@ -1,9 +1,9 @@
 @extends('layouts.main')
 
-@section('title', 'teste')
+@section('title', 'Home Page')
 
 @section('content')
-<table class="striped">
+<table class="striped centered">
         <thead>
           <tr>
               <th>Titulo</th>
@@ -13,14 +13,15 @@
         </thead>
 
         <tbody>
-            @foreach($rows -> $row)
+            @foreach($rows as $row)
                 <tr>
-                    <td>{{$row->'title'}} </td>
-                    <td>{{$row->'descrição'}} </td>
+                    <td>{{$row->title}} </td>
+                    <td>{{$row -> description}}</td>
                     <td>
-                        
+                        <a href="">Delete</a>
+                        <a href="">Update</a>
                     </td>
-                </tr>
+                </tr> 
             @endforeach
         </tbody>
       </table>
