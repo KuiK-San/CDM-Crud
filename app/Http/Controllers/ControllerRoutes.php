@@ -13,4 +13,8 @@ class ControllerRoutes extends Controller
 
         return view('welcome', ['rows' => $rows]);
     }
+    public function create(){
+
+        return view('create');
+    }
 }
