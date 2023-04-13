@@ -19,7 +19,7 @@
             <div class="nav-wrapper grey darken-4">
                 <a href="/" class="brand-logo">CRUD - CDM</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="/create/view">Create</a></li>
+                    <li><a href="/events/create">Create</a></li>
                 </ul>
             </div>
 

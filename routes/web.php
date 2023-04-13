@@ -15,4 +15,5 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ControllerRoutes;
 
 Route::get('/', [ControllerRoutes::class, 'index']);
-Route::get('/create/view', [ControllerRoutes::class, 'create']);
+Route::get('/events/create', [ControllerRoutes::class, 'create']);
+Route::post('/events', [ControllerRoutes::class, 'store']);
