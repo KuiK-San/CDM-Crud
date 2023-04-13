@@ -16,4 +16,3 @@ use App\Http\Controllers\ControllerRoutes;
 
 Route::get('/', [ControllerRoutes::class, 'index']);
 Route::get('/create/view', [ControllerRoutes::class, 'create']);
-Route::post('/create', [ControllerRoutes::class, 'store']);
