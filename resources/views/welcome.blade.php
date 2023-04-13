@@ -3,6 +3,7 @@
 @section('title', 'Home Page')
 
 @section('content')
+<h3 class="center-align">Registros</h3>
 <table class="striped centered">
         <thead>
           <tr>

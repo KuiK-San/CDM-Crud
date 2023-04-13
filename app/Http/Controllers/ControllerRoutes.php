@@ -17,4 +17,7 @@ class ControllerRoutes extends Controller
 
         return view('create');
     }
+    public function store(Request $request){
+        
+    }
 }
