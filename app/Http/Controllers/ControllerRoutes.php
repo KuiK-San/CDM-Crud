@@ -17,4 +17,12 @@ class ControllerRoutes extends Controller
 
         return view('create');
     }
+    public function store(Request $request){
+        // $row = new Register;
+        // $row->title = $request -> title;
+        // $row->description = $request -> description;
+
+        // $row->save();
+        return redirect('/');
+    }
 }
